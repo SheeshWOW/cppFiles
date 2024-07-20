@@ -13,7 +13,7 @@ void push_back(int*& arr, int& size, const int value);
 int main(){
    srand(time(NULL));
 
-   int size = 2;
+   int size = 5;
    int* arr = new int[size];
 
     FillArray(arr, size);
